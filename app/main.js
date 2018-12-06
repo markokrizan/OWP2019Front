@@ -1,3 +1,4 @@
+//http-server -p 8081
 //Instanca aplikacije kojoj se prosledjuje html selektor aplikacije
 const app = new App('#app');
 //Instanca klase koja ima informacije i pozive ka APIju
