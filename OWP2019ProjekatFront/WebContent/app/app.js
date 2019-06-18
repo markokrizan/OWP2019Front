@@ -61,7 +61,7 @@ class App {
     //this.loggedInRole = null;
     //HACK:
     postLoginViewChange(null);
-    window.location.replace(`${this.baseURI}flights`);
+    window.location.replace(`http://localhost:8080/airline-app/#/flights`);
   }
 
   collectionSorter(collection, propCriteria, descending){

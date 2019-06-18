@@ -29,8 +29,8 @@ let addFlightComponent = {
   
     validate(number, depDate, depTime, arrDate, arrTime, depAirport, arrAirport, noSeats, price){
       let validationMessage = "";
-      if(/^[a-z0-9]/.test(number) === false){
-        validationMessage += "&bull; Number must be at least one lowercase a - z letter or digit 0 - 9!\n";
+      if(/^(?=.*[a-zA-Z0-9])/.test(number) === false){
+  		validationMessage += "&bull; Number must be at least one lowercase a - z letter or digit 0 - 9!\n";
       }else{
         this.model.flight.number = number;
       }
