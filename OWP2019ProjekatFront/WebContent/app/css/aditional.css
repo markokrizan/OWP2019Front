@@ -1,0 +1,81 @@
+ul {
+    list-style-type: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+body {
+    background-color: #4CA1AF;
+}
+
+.selected-item{
+    border-color: #4CA1AF !important;
+}
+
+
+#homePageLink:link {
+    color: white !important;
+  }
+  
+/* visited link */
+#homePageLink:visited {
+color: white !important;
+}
+  
+/* mouse over link */
+#homePageLink:hover {
+color: white !important;
+}
+  
+/* selected link */
+#homePageLink:active {
+color: white !important;
+}
+
+#homePageLink:hover {
+    text-decoration: none;
+  }
+
+.userResTicketNav{
+    color: black !important;
+}
+
+.resTicketList{
+    margin-bottom: 2em !important;
+}
+
+.pickFlight{
+    background-color: #F8F9FA;
+}
+
+.pickSeat{
+    /*background-color: #B9B9B9;*/
+    border: 1px solid black;
+}
+
+.dropdownSelection{
+    height: 40px !important;
+}
+
+.navigationInner{
+    /*
+    background-color: rgba(235, 235, 235, 0.9); 
+    border-radius: 5px;
+    padding: 10px;
+    */
+}
+
+.navigationOuter{
+    /*border: 1px solid #EBEBEB !important;*/
+    background-color: rgba(235, 235, 235, 0.2); 
+    /*background-color:#F3F3F3;*/
+    padding: 10px;
+}
+
+/*
+.navigation li a{
+    color: black !important;
+}
+*/
